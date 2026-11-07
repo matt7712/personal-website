@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/
+RUN git clone https://github.com/matt7712/personal-website.git
 
 EXPOSE 8501
 
